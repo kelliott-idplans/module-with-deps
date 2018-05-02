@@ -1,5 +1,5 @@
-let flatten = require('array-flatten');
+let aws = require('aws-sdk');
 
 module.exports = function moduleWithDeps() {
-  return flatten([1, [2, [3, [4, [5], 6], 7], 8], 9]);
+  return new aws.SecretsManager();
 }

@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "array-flatten": "^2.1.1"
+    "aws-sdk": "^2.231.1"
   }
 }
